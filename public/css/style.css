@@ -1,0 +1,97 @@
+.kiri {
+    margin-left: 10px;
+    margin-right: 10px;
+    position: fixed;
+    left: 0;
+    height: 12.5%;
+    width: 20%;
+}
+
+.kategori {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.list-kategori {
+    list-style: none;
+    height: 0;
+}
+
+.kiri:hover {
+    height: auto;
+}
+
+.kiri:hover>.kategori h2 span {
+    transform: rotate(90deg);
+    transition: 0.3s;
+    border-radius: 50%;
+    background-color: var(--btn-color);
+    color: var(--main-color);
+}
+
+/* section tengah */
+.tengah {
+    border-radius: 10px;
+    margin: 1%;
+    margin-right: 10px;
+    left: 20%;
+    height: 100%;
+    width: 57%;
+    background-color: var(--section-shadow);
+    position: relative;
+    text-align: center;
+    font-weight: 900;
+    padding: 20px;
+
+}
+
+/* section kanan */
+.kanan {
+    position: fixed;
+    right: 0;
+    margin: 20px 10px 0px 10px;
+    border-radius: 20px;
+    background: var(--main-color);
+    height: 550px;
+    width: 20%;
+    text-align: left;
+
+}
+
+.berita-pop {
+    height: 75%;
+    overflow-y: auto;
+}
+
+.berita-populer li {
+    margin: 5px;
+    background-color: rgb(233, 233, 233);
+    display: flex;
+}
+
+.image-berita {
+    width: 80%;
+    margin: 10px;
+}
+
+/* footer */
+footer {
+    background-color: #071333;
+    height: 40px;
+    text-align: center;
+    clear: both;
+    color: white;
+    margin-top: 0%;
+}
+
+/* profile */
+.card {
+    margin: 20px 0px;
+    background-color: var(--main-color);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-radius: 30px;
+}
