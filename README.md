@@ -1,4 +1,4 @@
-# kampus_indonesia_wen_backend
+# kampus_indonesia_web_backend
 Soal tes backend magang Kampus Indonesia
 
 Pada project ini saya menonjolkan penggunaan Restfull API. Akan tetapi kurang dalam performa frontendnya dikarenakan saya cuma fokus ke backendnya saja.
